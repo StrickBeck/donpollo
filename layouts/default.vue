@@ -21,22 +21,20 @@
       <NuxtLink to="/logout" class="my-auto p-2 hover:bg-gray-500 hover:text-white max-sm:w-full max-sm:border-b-2 max-sm:border-black max-sm:text-center">LogOut</NuxtLink>
     </nav>
     <div v-if ="!burger" @click ="switch_burger" class = "max-sm:flex max-sm:flex-col max-sm:mr-8 max-sm:justify-between max-sm:items-center max-sm:w-8 max-sm:h-6">
-      <span class="h-[3px] w-full bg-blue-950"></span>
-      <span class="h-[3px] w-full bg-blue-950"></span>
-      <span class="h-[3px] w-full bg-blue-950"></span>
+      <span class="h-[3px] w-full bg-gray-500"></span>
+      <span class="h-[3px] w-full bg-gray-500"></span>
+      <span class="h-[3px] w-full bg-gray-500"></span>
     </div>
     <div v-else class = "max-sm:flex max-sm:flex-col max-sm:mr-8 max-sm:justify-between max-sm:items-center max-sm:w-8 max-sm:h-6" @click="switch_burger">
-      <span class="h-[3px] w-full bg-blue-950 rotate-45 relative top-[9px]"></span>
-      <span class="h-[3px] w-full bg-blue-950 opacity-0"></span>
-      <span class="h-[3px] w-full bg-blue-950 relative bottom-3 rotate-[-45deg]"></span>
+      <span class="h-[3px] w-full bg-gray-500 rotate-45 relative top-[9px]"></span>
+      <span class="h-[3px] w-full bg-gray-500 opacity-0"></span>
+      <span class="h-[3px] w-full bg-gray-500 relative bottom-3 rotate-[-45deg]"></span>
     </div>
     </Header>
 
 
   <main class="p-5 flex-row w-full h-screen relative overflow-hidden">
-  <div 
-    class="absolute inset-0 -z-10 bg-[url('/assets/images/donpollobg.jpg')] bg-cover bg-center ">
-  </div>
+  <div class="absolute inset-0 -z-10 bg-[url('/assets/images/donpollobg.jpg')] bg-cover bg-center "></div>
   <slot />
 </main>
 
@@ -58,14 +56,14 @@ useHead({
     script: [
         {
             async: true,
-            src: 'https://www.googletagmanager.com/gtag/js?id=G-TBV7H87J68',
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-K2NYFMRNR9',
         },
         {
             innerHTML:`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-TBV7H87J68');            
+            gtag('config', 'G-K2NYFMRNR9');            
             ` ,
             type: 'text/javascript',
         },

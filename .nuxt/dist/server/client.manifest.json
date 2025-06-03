@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "C:/Users/warma/Desktop/New folder/astma/node_modules/nuxt/dist/app/entry.js": {
+  "C:/Users/warma/Desktop/New folder/donpollo/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "C:/Users/warma/Desktop/New folder/astma/node_modules/nuxt/dist/app/entry.js"
+    "file": "C:/Users/warma/Desktop/New folder/donpollo/node_modules/nuxt/dist/app/entry.js"
   }
 }

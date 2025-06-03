@@ -1,1 +1,1 @@
-export { default } from "file:///C:/Users/warma/Desktop/New%20folder/astma/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///C:/Users/warma/Desktop/New%20folder/donpollo/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
